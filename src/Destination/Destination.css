@@ -1,0 +1,72 @@
+.destination{
+    padding-top: 2rem;
+}
+.ds-title{
+    font-size: 2rem;
+    color: rgb(8, 8, 68);
+}
+
+
+.dcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  
+  .d-img{
+    height: 18rem;
+    width: 27rem;
+
+  }
+  
+  .details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    color: rgb(89, 90, 109);
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .dcard {
+    padding: 0;
+    height: 22rem;
+    background-color: #fff; 
+    border: 1px solid #ffffff; 
+    border-radius: 1rem;  
+    width:19rem; 
+    transition: box-shadow 0.3s ease; 
+  }
+  .d-title{
+    padding-top: 0.8rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+  }
+  .dcard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  .d-info{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    font-size: 0.8rem;
+    color: rgb(115, 111, 111);
+    text-align: center;
+  }
+  .d-icon{
+    height: 1.5rem;
+    padding-left: 1rem;
+    margin-right: 1px;
+  }
+  
+.dat{
+  font-size: 0.8rem;
+  color: rgb(103, 103, 122);
+  font-weight: bold;
+}

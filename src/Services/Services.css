@@ -1,0 +1,54 @@
+
+.s-title{
+    font-size: 2rem;
+    color: rgb(8, 8, 68);
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  
+  .c-img{
+    height: 4rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+  }
+  
+  .card {
+    height: 13rem;
+    background-color: #fff; 
+    border: 1px solid #ffffff; 
+    border-radius: 1rem; 
+    padding: 2rem; 
+    width: 13rem; 
+    transition: box-shadow 0.3s ease; 
+  }
+  .c-title{
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  .c-info{
+    font-size: 0.8rem;
+    color: rgb(115, 111, 111);
+    text-align: center;
+  }
+  .cat{
+    font-size: 0.8rem;
+    color: rgb(103, 103, 122);
+    font-weight: bold;
+  }
+  
+  
